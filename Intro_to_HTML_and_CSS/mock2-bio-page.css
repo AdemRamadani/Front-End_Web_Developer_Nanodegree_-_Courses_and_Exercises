@@ -1,0 +1,65 @@
+/* I have only guessed the size of the PDF called mock2-bio-page.pdf
+in folder /Sample_Pages_and_Assets_for_the_Course_-_Resources/img
+and made the same design with just HTML and CSS. Everything was only for
+exercising purposes */
+
+body {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: 'GothamHTF', sans-serif;
+}
+
+.container {
+	background-color: #E8E8E7;
+}
+
+/* I had to improvise here with the
+.header, #h1nomargin, #h1nomargin */
+
+.header {
+	width:300px;
+	height: 120px;
+	position: relative;
+	font-size: 1.5em;
+	color: white;
+	top: -235px;
+	text-align: center;
+	margin-bottom: -120px;
+	margin-left: 320px;
+    border: 2px solid white;
+    letter-spacing: 0.25px;
+}
+
+#h1nomargin {
+	margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#pnomargin {
+	margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+.content {
+	background-color: white;
+	color: #7C8B88;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+    letter-spacing: 0.25px;
+}
+
+.heading {
+	text-transform: uppercase;
+}
+
+hr {
+	border: 6px solid #8BCC98;
+	max-width: 100%;
+}
+
+img {
+	max-width: 100%;
+	padding-top: 10px;
+}

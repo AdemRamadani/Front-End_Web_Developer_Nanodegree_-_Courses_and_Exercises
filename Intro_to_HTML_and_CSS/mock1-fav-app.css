@@ -1,0 +1,37 @@
+/* I have only guessed the size of the PDF called mock1-fav-app.pdf
+in folder /Sample_Pages_and_Assets_for_the_Course_-_Resources/img
+and made the same design with just HTML and CSS. Everything was only for
+exercising purposes */
+
+body {
+	max-width: 1120px;
+	margin: 0 auto;
+	font-family: 'GothamHTF', sans-serif;
+}
+
+.header {
+	background-color:#33BEBE;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+}
+
+h1 {
+	text-align: left;
+	font-size: 70px;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 40px;
+	padding-left: 20px;
+    letter-spacing: 3px;
+}
+
+p {
+	color: #7C8B88;
+	font-size: 34px;
+	padding-left:40px;
+	margin: 0;
+}
