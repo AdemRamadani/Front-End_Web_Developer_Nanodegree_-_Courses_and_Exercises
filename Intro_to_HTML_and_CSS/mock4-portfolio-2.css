@@ -1,4 +1,166 @@
-/* I have only guessed the size of the PDF called mock3-portfolio-1.pdf
+/* I have only guessed the size of the PDF called mock4-portfolio-2.pdf
 in folder /Sample_Pages_and_Assets_for_the_Course_-_Resources/img
 and made the same design with just HTML and CSS. Everything was only for
 exercising purposes */
+
+* {
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.25px;
+}
+
+.bgc {
+	background-color: #131A2D;
+}
+
+
+
+.udacitylogo {
+	width: 100px;
+	border-radius:50%;
+
+}
+
+h1 {
+	padding-top: 10px;
+	text-align: right;
+	color: #747704;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight:  900 !important;
+}
+
+h6 {
+	text-align: right;
+	color: #747704;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight:  100 !important;
+}
+
+hr {
+	border: 2.5px solid #D0C4AB;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+h3 {
+	text-align: left;
+	font-size: 32px;
+	color: #D0C4AB;
+	padding-left: 10px;
+	font-weight:  100 !important;
+}
+
+.imgfull {
+	width:100%;
+	padding: 0px;
+}
+
+.projectimg {
+	width:100%;
+	padding: 100px;
+	background-color: #D0C4AB;
+}
+
+.projectimgblank {
+	width:100%;
+	padding: 100px;
+	background-color: #131A2D;
+}
+
+h2 {
+	color: #D0C4AB;
+	font-size: 30px;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+	font-weight:  100 !important;
+}
+
+a {
+	color: #D0C4AB;
+    letter-spacing: 0px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight:  100 !important;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+	text-align: center;
+
+}
+
+@media only screen and (max-width: 599px) {
+	h1 {
+		font-size: 28px;
+		text-align: center;
+	}
+
+	h6 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.projecttitle {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	a {
+		font-size: 11px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 959px) {
+	.projecttitle {
+		font-size: 22px;
+		padding: 1px;
+	}
+
+    a {
+    font-size: 11px;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
