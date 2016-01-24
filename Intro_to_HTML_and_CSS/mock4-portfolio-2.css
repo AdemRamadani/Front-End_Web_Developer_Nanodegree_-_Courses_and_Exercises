@@ -4,18 +4,15 @@ and made the same design with just HTML and CSS. Everything was only for
 exercising purposes */
 
 * {
-    box-sizing: border-box;
-    max-width: 960px;
-    margin: 0 auto;
-	font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.25px;
+	box-sizing: border-box;
+	max-width: 960px;
+	margin: 0 auto;
+	letter-spacing: 0.25px;
 }
 
 .bgc {
 	background-color: #131A2D;
 }
-
-
 
 .udacitylogo {
 	width: 100px;
@@ -26,15 +23,15 @@ exercising purposes */
 h1 {
 	padding-top: 10px;
 	text-align: right;
-	color: #747704;
+	color: #131A2D;
 	font-size: 45px;
 	text-transform: uppercase;
-	font-weight:  900 !important;
+	font-weight: 900 !important;
 }
 
 h6 {
 	text-align: right;
-	color: #747704;
+	color: #131A2D;
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight:  100 !important;
@@ -51,16 +48,16 @@ h3 {
 	font-size: 32px;
 	color: #D0C4AB;
 	padding-left: 10px;
-	font-weight:  100 !important;
+	font-weight: 100 !important;
 }
 
 .imgfull {
-	width:100%;
+	width: 100%;
 	padding: 0px;
 }
 
 .projectimg {
-	width:100%;
+	width: 100%;
 	padding: 100px;
 	background-color: #D0C4AB;
 }

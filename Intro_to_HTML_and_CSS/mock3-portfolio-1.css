@@ -3,11 +3,11 @@ in folder /Sample_Pages_and_Assets_for_the_Course_-_Resources/img
 and made the same design with just HTML and CSS. Everything was only for
 exercising purposes */
 * {
-    box-sizing: border-box;
-    max-width: 960px;
-    margin: 0 auto;
+	box-sizing: border-box;
+	max-width: 960px;
+	margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.25px;
+	letter-spacing: 0.25px;
 }
 
 h1 {
@@ -52,13 +52,13 @@ h3 {
 	color: gray;
 	font-size: 35px;
 	text-transform: uppercase;
-    letter-spacing: 2px;
+	letter-spacing: 2px;
 }
 
 .link {
 	color: silver;
-    letter-spacing: 0px;
-    font-size: 13px;
+	letter-spacing: 0px;
+	font-size: 13px;
 }
 
 a {
