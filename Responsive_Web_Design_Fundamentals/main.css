@@ -67,12 +67,11 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 4em;
-  margin: 0.5em 0.25em;
+  font-size: 75px;
+  margin: 0px;
   display: inline-block;
   color: #212121;
 }
-
 
 /*
  *
@@ -373,4 +372,149 @@ footer a {
   text-decoration: none;
   color: #333;
   padding: 24px;
+}
+
+@media screen and (max-width: 399px) {
+  .header__inner {
+    width: 100%;
+  }
+
+  .header__logo {
+    margin: 5px;
+    margin-right: -5px;
+  }
+
+  li.top-news__item a {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .header__title {
+    width: 70%;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .weather__today {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .weather__today__image {
+    width: 50%
+  }
+
+  .weather__today__temp, .weather__today__deg {
+    font-size:2em;
+    width: 50%;
+    }
+
+
+  .snippet__thumbnail {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+  .snippet__title {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    padding-left: 0px;
+    display: block;
+    }
+
+    footer ul li a, footer{
+      text-align: center;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px){
+  .header__title {
+    font-size: 8vw;
+  }
+
+  .snippet__thumbnail {
+    padding-bottom: 15px;
+  }
+
+  .snippet__title {
+    font-size: 3vw;
+  }
+
+  h3.snippet__title a {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  footer ul li a, footer{
+    margin-top: 60px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 959px) {
+  .header__title {
+    font-size: 9.2vw;
+    text-align: center;
+  }
+
+  .hero {
+    width:50%;
+  }
+
+  .top-news {
+    width: 50%;
+    border: silver solid 1px;
+  }
+
+  .scores {
+    width: 40%;
+  }
+
+  .weather {
+    width: 60%;
+  }
+
+  .snippet__thumbnail {
+    padding-bottom: 15px;
+  }
+
+  footer ul li a, footer{
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+@media screen and (min-width: 960px) {
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.top-news {
+  width: 33%;
+}
+
+.scores {
+  width: 33%;
+}
+
+.weather {
+  width: 33%;
+}
+
+
 }
