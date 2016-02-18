@@ -430,6 +430,12 @@ footer a {
       text-align: center;
       padding-left: 0px;
       padding-right: 0px;
+
+
+    }
+
+    p {
+       font-size: 12px;
     }
 }
 
@@ -456,6 +462,10 @@ footer a {
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  p {
+   font-size: 13px;
   }
 }
 
@@ -490,6 +500,10 @@ footer a {
     text-align: center;
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  p {
+   font-size: 14px;
   }
 }
 
