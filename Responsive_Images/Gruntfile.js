@@ -10,32 +10,30 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     responsive_images: {
-      dev: {
+      myTask: {
         options: {
-          engine: 'im',
           sizes: [{
-            /*
-            Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
-            */
+            width: 320,
+            height: 240
+          },{
+            name: 'large',
+            width: 640
+          },{
+            name: "large",
+            width: 1024,
+            suffix: "_x2",
+            quality: 60
           }]
         },
-
-        /*
-        You don't need to change this part if you don't change
-        the directory structure.
-        */
         files: [{
           expand: true,
-          src: ['*.{gif,jpg,png}'],
-          cwd: 'images_src/',
-          dest: 'images/'
+          src: ['assets/**.{jpg,gif,png}'],
+          cwd: 'test/',
+          dest: 'tmp/'
         }]
       }
     },
+  })
 
     /* Clear out the images directory if it exists */
     clean: {
@@ -64,7 +62,7 @@ module.exports = function(grunt) {
       },
     },
   });
-  
+
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');

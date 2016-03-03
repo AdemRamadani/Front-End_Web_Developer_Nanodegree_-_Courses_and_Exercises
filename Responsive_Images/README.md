@@ -6,6 +6,8 @@
 * Restrain the width of the blog.
 * Drop the page weight.
 
+Evidence for doing the work "Project_Part_1.jpg"
+
 ## How you know you're done ##
 
 A code will appear in the Udacity Feedback. Paste the code in to the Udacity classroom to complete the quiz!
